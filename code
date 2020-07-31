@@ -1,0 +1,132 @@
+NewData1<-COV_19
+NewData2<-global_stock_price_homework2
+
+par(mfcol=c(4,4))
+plot(x=NewData2$'USA', y=NewData1$positiveIncrease,xlab = "Adj Close for S&P 500 (^GSPC)",
+     ylab = "new cases",
+     main = "Adj Cloase in S$P500 index vs new cases")
+
+plot(x=NewData2$'France', y=NewData1$positiveIncrease,xlab = "Adj Close for France stock market",
+     ylab = "new cases",
+     main = "Adj Close for France stock market index vs new cases")
+
+plot(x=NewData2$'Zurich', y=NewData1$positiveIncrease,xlab = "Adj Close for for Zurich stock market",
+     ylab = "new cases",
+     main = "Adj Close for for Zurich stock market vs new cases")
+
+plot(x=NewData2$'India', y=NewData1$positiveIncrease,xlab = "Adj Close for india stock price",
+     ylab = "new case",
+     main = "Adj Cloase in india stock price vs new cases")
+
+plot(x=NewData2$Pakistan, y=NewData1$positiveIncreasee,xlab = "Adj Close for pakistan stock market",
+     ylab = "new case",
+     main = "Adj Cloase in pakistan stock market vs new cases")
+
+plot(x=NewData2$Russia, y=NewData1$positiveIncrease,xlab = "Adj Close for russia stock market",
+     ylab = "new case",
+     main = "Adj Cloase in russia stock marke vs new cases")
+
+plot(x=NewData2$Brussels, y=NewData1$positiveIncrease,xlab = "Adj Close for brussels stock market",
+     ylab = "new case",
+     main = "Adj Cloase in brussels stock market vs new cases")
+
+plot(x=NewData2$`Osaka`, y=NewData1$positiveIncrease,xlab = "Adj Close for osaka stock market",
+     ylab = "new case",
+     main = "Adj Cloase in osaka stock market vs new cases")
+
+plot(x=NewData2$`Jakarta`, y=NewData1$positiveIncrease,xlab = "Adj Close for jakarta stock market",
+     ylab = "new case",
+     main = "Adj Cloase in jakarta stock market vs new cases")
+
+plot(x=NewData2$`Sao Paolo`, y=NewData1$positiveIncrease,xlab = "Adj Close for sao paolo stock market",
+     ylab = "new case",
+     main = "Adj Cloase in sao paolo stock market vs new cases")
+plot(x=NewData2$`Mexic`, y=NewData1$positiveIncrease,xlab = "Adj Close for mexic stock market",
+     ylab = "new case",
+     main = "Adj Cloase in mexic stock market vs new cases")
+plot(x=NewData2$`Toronto`, y=NewData1$positiveIncrease,xlab = "Adj Close for toronto stock market",
+     ylab = "new case",
+     main = "Adj Cloase in toronto stock market vs new cases")
+
+plot(x=NewData2$`Hongkong`, y=NewData1$positiveIncrease,xlab = "Adj Close for hongkong stock market",
+     ylab = "new case",
+     main = "Adj Cloase in hongkong stock market vs new cases")
+plot(x=NewData2$`Shenzhen`, y=NewData1$positiveIncrease,xlab = "Adj Close for shenzhen stock market",
+     ylab = "new case",
+     main = "Adj Cloase in shenzhen stock market vs new cases")
+
+plot(x=NewData2$`Australia`, y=NewData1$positiveIncrease,xlab = "Adj Close for australia stock market",
+     ylab = "new case",
+     main = "Adj Cloase in australia stock market vs new cases")
+
+plot(x=NewData2$`Taiwan`, y=NewData1$positiveIncrease,xlab = "Adj Close for taiwan stock market",
+     ylab = "new case",
+     main = "Adj Cloase in taiwan stock market vs new cases")
+
+par(mfcol=c(4,4))
+plot(x=NewData2$'USA', y=NewData1$deathIncrease,xlab = "Adj Close for S&P 500 (^GSPC)",
+     ylab = "death cases",
+     main = "Adj Cloase in S$P500 index vs death cases")
+
+plot(x=NewData2$'France', y=NewData1$deathIncrease,xlab = "Adj Close for France stock market",
+     ylab = "death cases",
+     main = "Adj Close for France stock market index vs positive")
+
+plot(x=NewData2$'Zurich', y=NewData1$deathIncrease,xlab = "Adj Close for for Zurich stock market",
+     ylab = "death cases",
+     main = "Adj Close for for Zurich stock market vs positive")
+
+plot(x=NewData2$'India', y=NewData1$deathIncrease,xlab = "Adj Close for India stock market",
+     ylab = "death case",
+     main = "Adj Cloase in India stock market vs death")
+
+plot(x=NewData2$Pakistan, y=NewData1$deathIncrease,xlab = "Adj Close for pakistan stock market",
+     ylab = "death case",
+     main = "Adj Cloase in pakistan stock market vs death")
+
+plot(x=NewData2$Russia, y=NewData1$deathIncrease,xlab = "Adj Close for russia stock market",
+     ylab = "death case",
+     main = "Adj Cloase in russia stock market vs death")
+
+plot(x=NewData2$Brussels, y=NewData1$deathIncrease,xlab = "Adj Close for brussels stock market",
+     ylab = "death case",
+     main = "Adj Cloase in brussels stock market vs death")
+
+plot(x=NewData2$`Osaka`, y=NewData1$deathIncrease,xlab = "Adj Close for osaka stock market",
+     ylab = "death case",
+     main = "Adj Cloase in osaka stock market vs death")
+
+plot(x=NewData2$`Jakarta`, y=NewData1$deathIncrease,xlab = "Adj Close for jakarta stock market",
+     ylab = "death case",
+     main = "Adj Cloase in jakarta stock marketx vs death")
+
+plot(x=NewData2$`Sao Paolo`, y=NewData1$deathIncrease,xlab = "Adj Close for sao paolo stock market)",
+     ylab = "death case",
+     main = "Adj Cloase in sao paolo stock market vs death")
+plot(x=NewData2$`Mexic`, y=NewData1$deathIncrease,xlab = "Adj Close for mexic stock market",
+     ylab = "death case",
+     main = "Adj Cloase in mexic stock market vs death")
+plot(x=NewData2$`Toronto`, y=NewData1$deathIncrease,xlab = "Adj Close for toronto stock market",
+     ylab = "death case",
+     main = "Adj Cloase in toronto stock market vs death")
+
+plot(x=NewData2$`Hongkong`, y=NewData1$deathIncrease,xlab = "Adj Close for hongkong stock market",
+     ylab = "death case",
+     main = "Adj Cloase in hongkong stock market vs death")
+plot(x=NewData2$`Shenzhen`, y=NewData1$deathIncrease,xlab = "Adj Close for shenzhen stock market",
+     ylab = "death case",
+     main = "Adj Cloase in shenzhen stock marke vs death")
+
+plot(x=NewData2$`Australia`, y=NewData1$deathIncrease,xlab = "Adj Close for australia stock market",
+     ylab = "death case",
+     main = "Adj Cloase in australia stock market vs death")
+
+plot(x=NewData2$`Taiwan`, y=NewData1$deathIncrease,xlab = "Adj Close for taiwan stock market",
+     ylab = "death case",
+     main = "Adj Cloase in taiwan stock market vs death")
+
+rownames(index_without_first_row) <- c('2/4','2/5','2/6','2/7','2/10','2/12','2/13','2/14','2/18','2/19','2/20','2/27','3/2','3/3','3/4','3/5','3/6','3/11','3/12','3/13','3/16','3/17','3/18','3/19','3/23','3/24','3/25','3/26','3/27','3/30','3/31','4/1','4/7','4/8','4/9','4/14','4/16','4/17','4/20','4/21','4/22','4/23','4/24','4/28','5/8','5/11','5/12','5/13','5/14','5/15','5/18','5/19','5/20','5/26','5/27','5/28','5/29')
+colnames(index_without_first_row) <- c("USA","France","Zurich","Brussels","Osaka","Jakarta","Sao Paolo","Mexic","Toronto","hongkong","shenzhen","australia","india","pakistan","taiwan","russia")
+df <- as.matrix((scale(index_without_first_row))) 
+H1<-heatmap(df,main="heatmap of global stock price",xlab='country',ylab="date")
+
